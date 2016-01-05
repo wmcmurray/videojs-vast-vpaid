@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # Go up the directory tree until you arrive to the git root
 while [ ! -d .git ]
