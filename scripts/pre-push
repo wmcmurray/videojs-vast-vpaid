@@ -22,7 +22,7 @@ fi
 pass=true
 echo "\nRuning Unit Tests:\n"
 
-result="$(gulp test| grep "Error: 1")"
+result="$(./node_modules/.bin/gulp test| grep "Error: 1")"
 
 if [ "$result" = "" ]; then
      echo "\t\033[32mUnit Tests Passed\033[0m\n"
